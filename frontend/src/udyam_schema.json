@@ -1,0 +1,62 @@
+{
+  "step1": [
+    {
+      "label": "Aadhaar Number",
+      "id": "aadhaar",
+      "type": "text",
+      "placeholder": "12-digit Aadhaar",
+      "validation": "^[0-9]{12}$",
+      "required": true
+    },
+    {
+      "label": "Name of Applicant",
+      "id": "name",
+      "type": "text",
+      "placeholder": "Full name",
+      "validation": "^[A-Za-z ]{3,}$",
+      "required": true
+    },
+    {
+      "label": "Mobile Number",
+      "id": "mobile",
+      "type": "text",
+      "placeholder": "10-digit mobile",
+      "validation": "^[6-9][0-9]{9}$",
+      "required": true
+    }
+  ],
+  "step2": [
+    {
+      "label": "PAN Number",
+      "id": "pan",
+      "type": "text",
+      "placeholder": "ABCDE1234F",
+      "validation": "^[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$",
+      "required": true
+    },
+    {
+      "label": "Pincode",
+      "id": "pincode",
+      "type": "text",
+      "placeholder": "110001",
+      "validation": "^[1-9][0-9]{5}$",
+      "required": true
+    },
+    {
+      "label": "State",
+      "id": "state",
+      "type": "text",
+      "placeholder": "Auto-filled",
+      "validation": "^.{2,}$",
+      "required": true
+    },
+    {
+      "label": "City",
+      "id": "city",
+      "type": "text",
+      "placeholder": "Auto-filled",
+      "validation": "^.{2,}$",
+      "required": true
+    }
+  ]
+}
