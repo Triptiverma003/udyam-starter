@@ -5,4 +5,4 @@ Project contains:
  - backend/ (node + express + prisma)
  - frontend/ (vite + react + ts + tailwind)
 
-See backend/.env.example to configure DATABASE_URL for Postgres.
+
